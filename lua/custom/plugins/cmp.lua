@@ -22,10 +22,10 @@ local M = {
     cmp.setup {
       sources = {
         { name = "nvim_lsp", max_item_count = 15 },
-        { name = "luasnip", max_item_count = 10 },
+        { name = "luasnip",  max_item_count = 10 },
         { name = "path" },
         { name = "buffer" },
-        { name = "copilot", group_index = 1, priority = 100 },
+        { name = "copilot",  group_index = 1,    priority = 100 },
       },
       mapping = {
         ["<C-p>"] = cmp.mapping.select_prev_item {
@@ -78,14 +78,6 @@ local M = {
     cmp.setup.cmdline({ "/", "?" }, {
       mapping = cmp.mapping.preset.cmdline(),
       sources = {
-        { name = "buffer" },
-      },
-    })
-
-    -- setup up vim-dadbod
-    cmp.setup.filetype({ "sql" }, {
-      sources = {
-        { name = "vim-dadbod-completion" },
         { name = "buffer" },
       },
     })

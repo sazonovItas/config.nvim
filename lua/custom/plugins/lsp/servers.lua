@@ -50,42 +50,6 @@ local servers = {
       semanticTokenProvider = vim.NIL,
     },
   },
-  bashls = {
-    filetypes = { "zsh", "sh" },
-  },
-  dockerls = true,
-  docker_compose_language_service = {
-    filetypes = { "yaml.docker-compose" },
-  },
-  bufls = true,
-  templ = true,
-  pyright = {
-    filetypes = { "python" },
-    root_dir = util.root_pattern(
-      "pyproject.toml",
-      "setup.py",
-      "setup.cfg",
-      "requirements.txt",
-      "Pipfile",
-      "pyrightconfig.json",
-      ".git"
-    ),
-    settings = {
-      pyright = {
-        exclude = { ".venv" },
-        venvPath = ".",
-        venv = ".venv",
-      },
-      python = {
-        analysis = {
-          autoImportCompletions = true,
-          autoSearchPaths = true,
-          diagnosticMode = "openFilesOnly",
-          useLibraryCodeForTypes = true,
-        },
-      },
-    },
-  },
 }
 
 return servers

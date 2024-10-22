@@ -13,7 +13,7 @@
   "go.nvim": { "branch": "master", "commit": "cde0c7a110c0f65b9e4e6baf342654268efff371" },
   "guihua.lua": { "branch": "master", "commit": "225db770e36aae6a1e9e3a65578095c8eb4038d3" },
   "kanagawa": { "branch": "master", "commit": "7735b2147ee6d223e43287044caa4fb070bdfa3d" },
-  "lazy.nvim": { "branch": "main", "commit": "332a7ff9b3d226529d8afda4e61979e8b410f350" },
+  "lazy.nvim": { "branch": "main", "commit": "077102c5bfc578693f12377846d427f49bc50076" },
   "lsp_signature.nvim": { "branch": "master", "commit": "a38da0a61c172bb59e34befc12efe48359884793" },
   "lspkind.nvim": { "branch": "master", "commit": "1735dd5a5054c1fb7feaf8e8658dbab925f4f0cf" },
   "lualine.nvim": { "branch": "master", "commit": "0a5a66803c7407767b799067986b4dc3036e1983" },
